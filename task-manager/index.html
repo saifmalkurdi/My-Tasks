@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager Website</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div>
+        <a href="index.html">
+          <img
+            class="logo"
+            src="./images/task-manager-logo.jpg"
+            alt="Task Manager Logo"
+          />
+        </a>
+        <h1 class="main-title">Task Manager</h1>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <input type="text" id="taskInput" placeholder="Enter a new task" />
+      <button id="addButton">Add Task</button>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Task Name</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="taskList">
+          <tr>
+            <td>Learn HTML</td>
+            <td>Incomplete</td>
+          </tr>
+          <tr>
+            <td>Style with CSS</td>
+            <td>Incomplete</td>
+          </tr>
+          <tr>
+            <td>Use JavaScript</td>
+            <td>Incomplete</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer class="main-footer">
+      <p>&copy; 2025 Task Manager</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
